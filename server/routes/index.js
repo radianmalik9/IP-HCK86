@@ -43,6 +43,7 @@ router.post('/auth/verify-email', UserController.verifyEmail);
 router.post('/auth/verify-email/request', authentication, UserController.requestEmailVerification);
 // Courses
 router.get('/courses', CourseController.getAllCourses);
+router.get('/courses/categories', CourseController.getCourseCategories);
 router.get('/courses/:id', CourseController.getCourseById);
 
 // Protected routes

@@ -198,6 +198,32 @@ class CourseController {
       next(error);
     }
   }
+  static async getCourseCategories(req, res, next) {
+  try {
+    const { Op } = require('sequelize');
+    
+    // Get unique categories from courses
+    const categories = await Course.findAll({
+      attributes: ['category'],
+      group: ['category'],
+      where: {
+        isPublished: true,
+        category: {
+          [Op.ne]: null
+        }
+      }
+    });
+
+    const categoryList = categories.map(course => course.category);
+    
+    res.json({
+      message: 'Categories retrieved successfully',
+      data: categoryList
+    });
+  } catch (error) {
+    next(error);
+  }
+}
 }
 
 module.exports = CourseController;
