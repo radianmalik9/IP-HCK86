@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
 
   Enrollment.init({
     userId: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.UUID,
       allowNull: false,
       references: {
         model: 'Users',
@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     courseId: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.UUID,
       allowNull: false,
       references: {
         model: 'Courses',
