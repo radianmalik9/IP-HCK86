@@ -58,10 +58,6 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.BOOLEAN,
       defaultValue: false
     },
-    learningPreferences: {
-      type: DataTypes.JSONB,
-      defaultValue: {}
-    },
     phoneNumber: {
       type: DataTypes.STRING,
       defaultValue: null,
