@@ -6,6 +6,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       Progress.belongsTo(models.User, { foreignKey: 'userId' });
       Progress.belongsTo(models.Lesson, { foreignKey: 'lessonId' });
+      Progress.belongsTo(models.Course, { foreignKey: 'courseId' });
     }
   }
 
@@ -26,6 +27,14 @@ module.exports = (sequelize, DataTypes) => {
         key: 'id'
       }
     },
+    courseId: {
+      type: DataTypes.UUID,
+      allowNull: false,
+      references: {
+        model: 'Courses',
+        key: 'id'
+      }
+    },
     isCompleted: {
       type: DataTypes.BOOLEAN,
       defaultValue: false
@@ -37,14 +46,11 @@ module.exports = (sequelize, DataTypes) => {
     timeSpent: {
       type: DataTypes.INTEGER, // in seconds
       defaultValue: 0
-    },
-    score: {
-      type: DataTypes.DECIMAL(5, 2),
-      defaultValue: null
     }
   }, {
     sequelize,
     modelName: 'Progress',
+    tableName: 'Progress',
     indexes: [
       {
         unique: true,

@@ -51,10 +51,6 @@ module.exports = (sequelize, DataTypes) => {
     isPreview: {
       type: DataTypes.BOOLEAN,
       defaultValue: false
-    },
-    resources: {
-      type: DataTypes.JSONB,
-      defaultValue: []
     }
   }, {
     sequelize,

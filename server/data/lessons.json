@@ -1,0 +1,467 @@
+[
+  {
+    "courseTitle": "React Fundamentals",
+    "lessons": [
+      {
+        "id": "l1e1a1e0-1111-4a1a-9a1a-111111111111",
+        "title": "Introduction to React",
+        "type": "video",
+        "duration": 20,
+        "order": 1,
+        "isPreview": true,
+        "content": "Welcome to React fundamentals course",
+        "createdAt": "2025-08-21T09:01:34.762Z",
+        "updatedAt": "2025-08-21T09:01:34.762Z"
+      },
+      {
+        "id": "l1e1a1e0-1111-4a1a-9a1a-111111111112",
+        "title": "JSX Syntax",
+        "type": "video",
+        "duration": 25,
+        "order": 2,
+        "isPreview": false,
+        "content": "Understanding JSX syntax and expressions",
+        "createdAt": "2025-08-21T09:01:34.762Z",
+        "updatedAt": "2025-08-21T09:01:34.762Z"
+      },
+      {
+        "id": "l1e1a1e0-1111-4a1a-9a1a-111111111113",
+        "title": "Components and Props",
+        "type": "video",
+        "duration": 30,
+        "order": 3,
+        "isPreview": false,
+        "content": "Creating reusable components",
+        "createdAt": "2025-08-21T09:01:34.762Z",
+        "updatedAt": "2025-08-21T09:01:34.762Z"
+      },
+      {
+        "id": "l1e1a1e0-1111-4a1a-9a1a-111111111114",
+        "title": "State Management",
+        "type": "video",
+        "duration": 35,
+        "order": 4,
+        "isPreview": false,
+        "content": "Managing component state with hooks",
+        "createdAt": "2025-08-21T09:01:34.762Z",
+        "updatedAt": "2025-08-21T09:01:34.762Z"
+      },
+      {
+        "id": "l1e1a1e0-1111-4a1a-9a1a-111111111115",
+        "title": "Event Handling",
+        "type": "video",
+        "duration": 25,
+        "order": 5,
+        "isPreview": false,
+        "content": "Handling user interactions",
+        "createdAt": "2025-08-21T09:01:34.762Z",
+        "updatedAt": "2025-08-21T09:01:34.762Z"
+      }
+    ]
+  },
+  {
+    "courseTitle": "Node.js for APIs",
+    "lessons": [
+      {
+        "title": "Node.js Introduction",
+        "type": "video",
+        "duration": 25,
+        "order": 1,
+        "isPreview": true,
+        "content": "Getting started with Node.js"
+      },
+      {
+        "title": "Express Framework",
+        "type": "video",
+        "duration": 30,
+        "order": 2,
+        "isPreview": false,
+        "content": "Setting up Express server"
+      },
+      {
+        "title": "REST API Design",
+        "type": "video",
+        "duration": 35,
+        "order": 3,
+        "isPreview": false,
+        "content": "RESTful API principles"
+      },
+      {
+        "title": "Database Integration",
+        "type": "video",
+        "duration": 40,
+        "order": 4,
+        "isPreview": false,
+        "content": "Connecting to databases"
+      },
+      {
+        "title": "Authentication & Security",
+        "type": "video",
+        "duration": 45,
+        "order": 5,
+        "isPreview": false,
+        "content": "Implementing JWT authentication"
+      }
+    ]
+  },
+  {
+    "courseTitle": "Python Data Science",
+    "lessons": [
+      {
+        "title": "Python Basics for Data Science",
+        "type": "video",
+        "duration": 30,
+        "order": 1,
+        "isPreview": true,
+        "content": "Python fundamentals"
+      },
+      {
+        "title": "NumPy Arrays",
+        "type": "video",
+        "duration": 35,
+        "order": 2,
+        "isPreview": false,
+        "content": "Working with NumPy arrays"
+      },
+      {
+        "title": "Pandas DataFrames",
+        "type": "video",
+        "duration": 40,
+        "order": 3,
+        "isPreview": false,
+        "content": "Data manipulation with Pandas"
+      },
+      {
+        "title": "Data Visualization",
+        "type": "video",
+        "duration": 35,
+        "order": 4,
+        "isPreview": false,
+        "content": "Creating charts with Matplotlib"
+      },
+      {
+        "title": "Machine Learning Basics",
+        "type": "video",
+        "duration": 50,
+        "order": 5,
+        "isPreview": false,
+        "content": "Introduction to scikit-learn"
+      }
+    ]
+  },
+  {
+    "courseTitle": "JavaScript ES6+",
+    "lessons": [
+      {
+        "title": "ES6 Features Overview",
+        "type": "video",
+        "duration": 20,
+        "order": 1,
+        "isPreview": true,
+        "content": "Modern JavaScript features"
+      },
+      {
+        "title": "Arrow Functions",
+        "type": "video",
+        "duration": 25,
+        "order": 2,
+        "isPreview": false,
+        "content": "Understanding arrow functions"
+      },
+      {
+        "title": "Destructuring Assignment",
+        "type": "video",
+        "duration": 30,
+        "order": 3,
+        "isPreview": false,
+        "content": "Object and array destructuring"
+      },
+      {
+        "title": "Promises and Async/Await",
+        "type": "video",
+        "duration": 40,
+        "order": 4,
+        "isPreview": false,
+        "content": "Asynchronous programming"
+      },
+      {
+        "title": "Modules and Classes",
+        "type": "video",
+        "duration": 35,
+        "order": 5,
+        "isPreview": false,
+        "content": "ES6 modules and classes"
+      }
+    ]
+  },
+  {
+    "courseTitle": "Vue.js Complete Guide",
+    "lessons": [
+      {
+        "title": "Vue.js Introduction",
+        "type": "video",
+        "duration": 25,
+        "order": 1,
+        "isPreview": true,
+        "content": "Getting started with Vue.js"
+      },
+      {
+        "title": "Vue Components",
+        "type": "video",
+        "duration": 35,
+        "order": 2,
+        "isPreview": false,
+        "content": "Creating Vue components"
+      },
+      {
+        "title": "Vue Router",
+        "type": "video",
+        "duration": 30,
+        "order": 3,
+        "isPreview": false,
+        "content": "Single page application routing"
+      },
+      {
+        "title": "Vuex State Management",
+        "type": "video",
+        "duration": 40,
+        "order": 4,
+        "isPreview": false,
+        "content": "Managing application state"
+      },
+      {
+        "title": "Vue CLI and Build Tools",
+        "type": "video",
+        "duration": 30,
+        "order": 5,
+        "isPreview": false,
+        "content": "Development tools and deployment"
+      }
+    ]
+  },
+  {
+    "courseTitle": "MongoDB Database Design",
+    "lessons": [
+      {
+        "title": "MongoDB Fundamentals",
+        "type": "video",
+        "duration": 30,
+        "order": 1,
+        "isPreview": true,
+        "content": "Introduction to NoSQL"
+      },
+      {
+        "title": "Document Structure",
+        "type": "video",
+        "duration": 25,
+        "order": 2,
+        "isPreview": false,
+        "content": "Designing document schemas"
+      },
+      {
+        "title": "CRUD Operations",
+        "type": "video",
+        "duration": 35,
+        "order": 3,
+        "isPreview": false,
+        "content": "Create, Read, Update, Delete"
+      },
+      {
+        "title": "Aggregation Pipeline",
+        "type": "video",
+        "duration": 40,
+        "order": 4,
+        "isPreview": false,
+        "content": "Data aggregation and analysis"
+      },
+      {
+        "title": "Indexing and Performance",
+        "type": "video",
+        "duration": 30,
+        "order": 5,
+        "isPreview": false,
+        "content": "Optimizing query performance"
+      }
+    ]
+  },
+  {
+    "courseTitle": "Docker Containerization",
+    "lessons": [
+      {
+        "title": "Docker Introduction",
+        "type": "video",
+        "duration": 20,
+        "order": 1,
+        "isPreview": true,
+        "content": "What is containerization"
+      },
+      {
+        "title": "Docker Images",
+        "type": "video",
+        "duration": 30,
+        "order": 2,
+        "isPreview": false,
+        "content": "Building and managing images"
+      },
+      {
+        "title": "Docker Containers",
+        "type": "video",
+        "duration": 35,
+        "order": 3,
+        "isPreview": false,
+        "content": "Running and managing containers"
+      },
+      {
+        "title": "Docker Compose",
+        "type": "video",
+        "duration": 40,
+        "order": 4,
+        "isPreview": false,
+        "content": "Multi-container applications"
+      },
+      {
+        "title": "Production Deployment",
+        "type": "video",
+        "duration": 35,
+        "order": 5,
+        "isPreview": false,
+        "content": "Deploying containers to production"
+      }
+    ]
+  },
+  {
+    "courseTitle": "AWS Cloud Fundamentals",
+    "lessons": [
+      {
+        "title": "AWS Introduction",
+        "type": "video",
+        "duration": 25,
+        "order": 1,
+        "isPreview": true,
+        "content": "Cloud computing basics"
+      },
+      {
+        "title": "EC2 Instances",
+        "type": "video",
+        "duration": 40,
+        "order": 2,
+        "isPreview": false,
+        "content": "Virtual servers on AWS"
+      },
+      {
+        "title": "S3 Storage",
+        "type": "video",
+        "duration": 30,
+        "order": 3,
+        "isPreview": false,
+        "content": "Object storage service"
+      },
+      {
+        "title": "RDS Databases",
+        "type": "video",
+        "duration": 35,
+        "order": 4,
+        "isPreview": false,
+        "content": "Managed database services"
+      },
+      {
+        "title": "IAM Security",
+        "type": "video",
+        "duration": 40,
+        "order": 5,
+        "isPreview": false,
+        "content": "Identity and access management"
+      }
+    ]
+  },
+  {
+    "courseTitle": "TypeScript Advanced",
+    "lessons": [
+      {
+        "title": "TypeScript Setup",
+        "type": "video",
+        "duration": 20,
+        "order": 1,
+        "isPreview": true,
+        "content": "Setting up TypeScript project"
+      },
+      {
+        "title": "Advanced Types",
+        "type": "video",
+        "duration": 40,
+        "order": 2,
+        "isPreview": false,
+        "content": "Union types, generics, and more"
+      },
+      {
+        "title": "Decorators",
+        "type": "video",
+        "duration": 35,
+        "order": 3,
+        "isPreview": false,
+        "content": "Using decorators in TypeScript"
+      },
+      {
+        "title": "Modules and Namespaces",
+        "type": "video",
+        "duration": 30,
+        "order": 4,
+        "isPreview": false,
+        "content": "Code organization patterns"
+      },
+      {
+        "title": "TypeScript with React",
+        "type": "video",
+        "duration": 45,
+        "order": 5,
+        "isPreview": false,
+        "content": "Building React apps with TypeScript"
+      }
+    ]
+  },
+  {
+    "courseTitle": "Flutter Mobile Development",
+    "lessons": [
+      {
+        "title": "Flutter Introduction",
+        "type": "video",
+        "duration": 30,
+        "order": 1,
+        "isPreview": true,
+        "content": "Cross-platform mobile development"
+      },
+      {
+        "title": "Dart Programming",
+        "type": "video",
+        "duration": 40,
+        "order": 2,
+        "isPreview": false,
+        "content": "Learning Dart language"
+      },
+      {
+        "title": "Widgets and Layouts",
+        "type": "video",
+        "duration": 45,
+        "order": 3,
+        "isPreview": false,
+        "content": "Building user interfaces"
+      },
+      {
+        "title": "State Management",
+        "type": "video",
+        "duration": 50,
+        "order": 4,
+        "isPreview": false,
+        "content": "Managing app state"
+      },
+      {
+        "title": "API Integration",
+        "type": "video",
+        "duration": 40,
+        "order": 5,
+        "isPreview": false,
+        "content": "Connecting to REST APIs"
+      }
+    ]
+  }
+]

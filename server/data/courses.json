@@ -1,0 +1,758 @@
+[
+  {
+    "id": "c1e1a1e0-1111-4a1a-9a1a-111111111111",
+    "title": "React Fundamentals",
+    "description": "Learn React from scratch with hands-on projects and real-world examples.",
+    "category": "Programming",
+    "level": "beginner",
+    "price": 0,
+    "duration": 180,
+    "tags": [
+      "react",
+      "frontend",
+      "javascript"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true,
+    "createdAt": "2025-08-21T09:01:34.762Z",
+    "updatedAt": "2025-08-21T09:01:34.762Z"
+  },
+  {
+    "title": "Node.js for APIs",
+    "description": "Build scalable REST APIs with Node.js and Express framework.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 29,
+    "duration": 240,
+    "tags": [
+      "node",
+      "backend",
+      "api"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Python Data Science",
+    "description": "Master data analysis and machine learning with Python libraries.",
+    "category": "Data Science",
+    "level": "intermediate",
+    "price": 49,
+    "duration": 320,
+    "tags": [
+      "python",
+      "data-science",
+      "pandas",
+      "numpy"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "JavaScript ES6+",
+    "description": "Modern JavaScript features and best practices for web development.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 25,
+    "duration": 200,
+    "tags": [
+      "javascript",
+      "es6",
+      "modern-js"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Vue.js Complete Guide",
+    "description": "Build dynamic web applications with Vue.js framework.",
+    "category": "Programming",
+    "level": "beginner",
+    "price": 35,
+    "duration": 280,
+    "tags": [
+      "vue",
+      "frontend",
+      "javascript"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "MongoDB Database Design",
+    "description": "Learn NoSQL database design and optimization with MongoDB.",
+    "category": "Database",
+    "level": "intermediate",
+    "price": 40,
+    "duration": 220,
+    "tags": [
+      "mongodb",
+      "nosql",
+      "database"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Docker Containerization",
+    "description": "Master containerization and deployment with Docker.",
+    "category": "DevOps",
+    "level": "intermediate",
+    "price": 45,
+    "duration": 180,
+    "tags": [
+      "docker",
+      "containers",
+      "devops"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1605745341112-85968b19335b?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "AWS Cloud Fundamentals",
+    "description": "Introduction to Amazon Web Services and cloud computing.",
+    "category": "Cloud Computing",
+    "level": "beginner",
+    "price": 55,
+    "duration": 300,
+    "tags": [
+      "aws",
+      "cloud",
+      "infrastructure"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "TypeScript Advanced",
+    "description": "Advanced TypeScript patterns and enterprise development.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 60,
+    "duration": 250,
+    "tags": [
+      "typescript",
+      "advanced",
+      "enterprise"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Flutter Mobile Development",
+    "description": "Build cross-platform mobile apps with Flutter and Dart.",
+    "category": "Mobile Development",
+    "level": "intermediate",
+    "price": 50,
+    "duration": 400,
+    "tags": [
+      "flutter",
+      "dart",
+      "mobile",
+      "cross-platform"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "GraphQL API Development",
+    "description": "Modern API development with GraphQL and Apollo.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 65,
+    "duration": 280,
+    "tags": [
+      "graphql",
+      "apollo",
+      "api"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Kubernetes Orchestration",
+    "description": "Container orchestration and management with Kubernetes.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 70,
+    "duration": 350,
+    "tags": [
+      "kubernetes",
+      "orchestration",
+      "devops"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Machine Learning with TensorFlow",
+    "description": "Deep learning and neural networks with TensorFlow.",
+    "category": "Machine Learning",
+    "level": "advanced",
+    "price": 80,
+    "duration": 450,
+    "tags": [
+      "tensorflow",
+      "deep-learning",
+      "ai"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "PostgreSQL Database Administration",
+    "description": "Advanced PostgreSQL administration and optimization.",
+    "category": "Database",
+    "level": "advanced",
+    "price": 55,
+    "duration": 300,
+    "tags": [
+      "postgresql",
+      "database",
+      "administration"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Next.js Full Stack",
+    "description": "Full-stack web development with Next.js and React.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 45,
+    "duration": 320,
+    "tags": [
+      "nextjs",
+      "react",
+      "fullstack"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "description": "Essential cybersecurity concepts and practices.",
+    "category": "Security",
+    "level": "beginner",
+    "price": 60,
+    "duration": 280,
+    "tags": [
+      "cybersecurity",
+      "security",
+      "fundamentals"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Blockchain Development",
+    "description": "Smart contracts and DApp development on Ethereum.",
+    "category": "Blockchain",
+    "level": "advanced",
+    "price": 90,
+    "duration": 400,
+    "tags": [
+      "blockchain",
+      "ethereum",
+      "smart-contracts"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "React Native Mobile Apps",
+    "description": "Cross-platform mobile development with React Native.",
+    "category": "Mobile Development",
+    "level": "intermediate",
+    "price": 55,
+    "duration": 380,
+    "tags": [
+      "react-native",
+      "mobile",
+      "cross-platform"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "DevOps CI/CD Pipelines",
+    "description": "Continuous integration and deployment best practices.",
+    "category": "DevOps",
+    "level": "intermediate",
+    "price": 50,
+    "duration": 260,
+    "tags": [
+      "cicd",
+      "devops",
+      "automation"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Angular Framework Mastery",
+    "description": "Complete Angular framework for enterprise applications.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 45,
+    "duration": 340,
+    "tags": [
+      "angular",
+      "typescript",
+      "frontend"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Microservices Architecture",
+    "description": "Design and implement scalable microservices systems.",
+    "category": "Architecture",
+    "level": "advanced",
+    "price": 75,
+    "duration": 380,
+    "tags": [
+      "microservices",
+      "architecture",
+      "scalability"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Sass/SCSS Styling",
+    "description": "Advanced CSS preprocessing with Sass and SCSS.",
+    "category": "Design",
+    "level": "beginner",
+    "price": 25,
+    "duration": 150,
+    "tags": [
+      "sass",
+      "scss",
+      "css"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Redis Caching Strategies",
+    "description": "High-performance caching with Redis database.",
+    "category": "Database",
+    "level": "intermediate",
+    "price": 40,
+    "duration": 200,
+    "tags": [
+      "redis",
+      "caching",
+      "performance"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Swift iOS Development",
+    "description": "Native iOS app development with Swift programming.",
+    "category": "Mobile Development",
+    "level": "intermediate",
+    "price": 60,
+    "duration": 420,
+    "tags": [
+      "swift",
+      "ios",
+      "mobile"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Kotlin Android Development",
+    "description": "Modern Android app development with Kotlin.",
+    "category": "Mobile Development",
+    "level": "intermediate",
+    "price": 55,
+    "duration": 400,
+    "tags": [
+      "kotlin",
+      "android",
+      "mobile"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Elasticsearch Search Engine",
+    "description": "Full-text search and analytics with Elasticsearch.",
+    "category": "Database",
+    "level": "advanced",
+    "price": 65,
+    "duration": 280,
+    "tags": [
+      "elasticsearch",
+      "search",
+      "analytics"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Apache Kafka Streaming",
+    "description": "Real-time data streaming with Apache Kafka.",
+    "category": "Data Engineering",
+    "level": "advanced",
+    "price": 70,
+    "duration": 320,
+    "tags": [
+      "kafka",
+      "streaming",
+      "data"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Webpack Module Bundling",
+    "description": "Advanced module bundling and build optimization.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 35,
+    "duration": 180,
+    "tags": [
+      "webpack",
+      "bundling",
+      "optimization"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "D3.js Data Visualization",
+    "description": "Interactive data visualization with D3.js library.",
+    "category": "Data Visualization",
+    "level": "intermediate",
+    "price": 50,
+    "duration": 240,
+    "tags": [
+      "d3js",
+      "visualization",
+      "charts"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Terraform Infrastructure",
+    "description": "Infrastructure as Code with Terraform automation.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 65,
+    "duration": 300,
+    "tags": [
+      "terraform",
+      "iac",
+      "infrastructure"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "RabbitMQ Message Queues",
+    "description": "Asynchronous messaging with RabbitMQ broker.",
+    "category": "Architecture",
+    "level": "intermediate",
+    "price": 45,
+    "duration": 220,
+    "tags": [
+      "rabbitmq",
+      "messaging",
+      "queues"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Nginx Web Server",
+    "description": "Web server configuration and load balancing.",
+    "category": "DevOps",
+    "level": "intermediate",
+    "price": 40,
+    "duration": 200,
+    "tags": [
+      "nginx",
+      "webserver",
+      "loadbalancing"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Jest Testing Framework",
+    "description": "Comprehensive testing strategies with Jest.",
+    "category": "Testing",
+    "level": "intermediate",
+    "price": 35,
+    "duration": 180,
+    "tags": [
+      "jest",
+      "testing",
+      "javascript"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Svelte Frontend Framework",
+    "description": "Modern frontend development with Svelte framework.",
+    "category": "Programming",
+    "level": "beginner",
+    "price": 40,
+    "duration": 260,
+    "tags": [
+      "svelte",
+      "frontend",
+      "javascript"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Solidity Smart Contracts",
+    "description": "Ethereum smart contract development with Solidity.",
+    "category": "Blockchain",
+    "level": "advanced",
+    "price": 85,
+    "duration": 360,
+    "tags": [
+      "solidity",
+      "ethereum",
+      "smart-contracts"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Figma UI/UX Design",
+    "description": "Professional UI/UX design workflow with Figma.",
+    "category": "Design",
+    "level": "beginner",
+    "price": 45,
+    "duration": 200,
+    "tags": [
+      "figma",
+      "ui",
+      "ux",
+      "design"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "FastAPI Python Framework",
+    "description": "High-performance API development with FastAPI.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 50,
+    "duration": 240,
+    "tags": [
+      "fastapi",
+      "python",
+      "api"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Selenium Test Automation",
+    "description": "Web application test automation with Selenium.",
+    "category": "Testing",
+    "level": "intermediate",
+    "price": 45,
+    "duration": 220,
+    "tags": [
+      "selenium",
+      "automation",
+      "testing"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Spring Boot Java Framework",
+    "description": "Enterprise Java development with Spring Boot.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 55,
+    "duration": 320,
+    "tags": [
+      "spring-boot",
+      "java",
+      "enterprise"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Django Web Framework",
+    "description": "Full-stack web development with Django framework.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 50,
+    "duration": 300,
+    "tags": [
+      "django",
+      "python",
+      "web"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Ruby on Rails Development",
+    "description": "Rapid web application development with Rails.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 45,
+    "duration": 280,
+    "tags": [
+      "ruby",
+      "rails",
+      "web"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Go Programming Language",
+    "description": "Efficient backend development with Go language.",
+    "category": "Programming",
+    "level": "intermediate",
+    "price": 50,
+    "duration": 260,
+    "tags": [
+      "go",
+      "golang",
+      "backend"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Rust Systems Programming",
+    "description": "Safe systems programming with Rust language.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 70,
+    "duration": 340,
+    "tags": [
+      "rust",
+      "systems",
+      "programming"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Phoenix Elixir Framework",
+    "description": "Real-time web applications with Phoenix framework.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 65,
+    "duration": 300,
+    "tags": [
+      "phoenix",
+      "elixir",
+      "realtime"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Serverless Architecture",
+    "description": "Cloud-native serverless application development.",
+    "category": "Cloud Computing",
+    "level": "advanced",
+    "price": 75,
+    "duration": 320,
+    "tags": [
+      "serverless",
+      "lambda",
+      "cloud"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Apache Spark Big Data",
+    "description": "Large-scale data processing with Apache Spark.",
+    "category": "Data Engineering",
+    "level": "advanced",
+    "price": 80,
+    "duration": 380,
+    "tags": [
+      "spark",
+      "bigdata",
+      "analytics"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Unity Game Development",
+    "description": "2D and 3D game development with Unity engine.",
+    "category": "Game Development",
+    "level": "intermediate",
+    "price": 60,
+    "duration": 400,
+    "tags": [
+      "unity",
+      "gamedev",
+      "csharp"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Unreal Engine Game Dev",
+    "description": "Professional game development with Unreal Engine.",
+    "category": "Game Development",
+    "level": "advanced",
+    "price": 85,
+    "duration": 450,
+    "tags": [
+      "unreal",
+      "gamedev",
+      "cpp"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Blender 3D Modeling",
+    "description": "3D modeling and animation with Blender software.",
+    "category": "Design",
+    "level": "beginner",
+    "price": 40,
+    "duration": 300,
+    "tags": [
+      "blender",
+      "3d",
+      "modeling"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  },
+  {
+    "title": "Adobe After Effects",
+    "description": "Motion graphics and visual effects with After Effects.",
+    "category": "Design",
+    "level": "intermediate",
+    "price": 55,
+    "duration": 280,
+    "tags": [
+      "after-effects",
+      "motion",
+      "graphics"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1200&auto=format&fit=crop",
+    "isPublished": true
+  }
+]
