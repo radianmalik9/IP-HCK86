@@ -4,7 +4,7 @@ jest.mock('../models', () => ({
   Enrollment: { findOne: jest.fn(), create: jest.fn() },
   Course: { findByPk: jest.fn() },
   User: {},
-  Lesson: { findAll: jest.fn() },
+  Lesson: { findAll: jest.fn(), findOne: jest.fn() },
   Progress: { findOne: jest.fn(), create: jest.fn(), count: jest.fn() },
 }));
 
@@ -48,8 +48,17 @@ describe('EnrollmentController', () => {
   });
 
   test('markLessonComplete - recompute progress', async () => {
-    Enrollment.findOne.mockResolvedValue({ id: 1, progress: 0, update: jest.fn() });
+    const mockEnrollment = { 
+      id: 1, 
+      progress: 0, 
+      update: jest.fn().mockResolvedValue(true),
+      reload: jest.fn().mockResolvedValue(true),
+      completedAt: null
+    };
+    Enrollment.findOne.mockResolvedValue(mockEnrollment);
+    Lesson.findOne.mockResolvedValue({ id: 2, courseId: 10 }); // Mock lesson verification
     Progress.findOne.mockResolvedValue(null);
+    Progress.create.mockResolvedValue({ id: 1, userId: 1, lessonId: 2, courseId: 10, isCompleted: true });
     Lesson.findAll.mockResolvedValue([{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }]);
     Progress.count.mockResolvedValue(2);
     const { req, res, next } = ctx({ params: { courseId: 10, lessonId: 2 } });

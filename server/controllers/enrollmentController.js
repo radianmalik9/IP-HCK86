@@ -105,13 +105,25 @@ class EnrollmentController {
     try {
       const { courseId, lessonId } = req.params;
       const userId = req.user.id;
+      
+      // Verify enrollment exists
       const enrollment = await Enrollment.findOne({ where: { userId, courseId } });
       if (!enrollment) throw { name: 'NotFound', message: 'Enrollment not found' };
 
+      // Verify lesson belongs to the course
+      const lesson = await Lesson.findOne({ where: { id: lessonId, courseId } });
+      if (!lesson) throw { name: 'NotFound', message: 'Lesson not found in this course' };
+
       // Upsert progress for the lesson
-      let progress = await Progress.findOne({ where: { userId, lessonId } });
+      let progress = await Progress.findOne({ where: { userId, lessonId, courseId } });
       if (!progress) {
-        progress = await Progress.create({ userId, lessonId, isCompleted: true, completedAt: new Date() });
+        progress = await Progress.create({ 
+          userId, 
+          lessonId, 
+          courseId, 
+          isCompleted: true, 
+          completedAt: new Date() 
+        });
       } else if (!progress.isCompleted) {
         await progress.update({ isCompleted: true, completedAt: new Date() });
       }
@@ -119,11 +131,25 @@ class EnrollmentController {
       // Calculate progress based on how many lessons of the course are completed
       const courseLessons = await Lesson.findAll({ where: { courseId }, attributes: ['id'] });
       const lessonIds = courseLessons.map(l => l.id);
-      const completedCount = await Progress.count({ where: { userId, lessonId: lessonIds, isCompleted: true } });
+      const completedCount = await Progress.count({ 
+        where: { 
+          userId, 
+          courseId, 
+          lessonId: lessonIds, 
+          isCompleted: true 
+        } 
+      });
       const total = lessonIds.length || 1; // avoid division by zero
       const percent = Math.min(100, Math.round((completedCount / total) * 100));
 
-      await enrollment.update({ progress: percent, completedAt: percent >= 100 ? new Date() : enrollment.completedAt });
+      // Update enrollment progress
+      await enrollment.update({ 
+        progress: percent, 
+        completedAt: percent >= 100 ? new Date() : enrollment.completedAt 
+      });
+
+      // Reload enrollment to get updated data
+      await enrollment.reload();
 
       res.status(200).json({
         success: true,
@@ -144,12 +170,28 @@ class EnrollmentController {
     try {
       const { courseId } = req.params;
       const userId = req.user.id;
+      
+      // Verify enrollment exists
+      const enrollment = await Enrollment.findOne({ where: { userId, courseId } });
+      if (!enrollment) throw { name: 'NotFound', message: 'Enrollment not found' };
+      
       const lessons = await Lesson.findAll({ where: { courseId }, attributes: ['id'] });
       const lessonIds = lessons.map(l => l.id);
+      
       if (lessonIds.length === 0) {
         return res.status(200).json({ success: true, data: [] });
       }
-      const completed = await Progress.findAll({ where: { userId, lessonId: lessonIds, isCompleted: true }, attributes: ['lessonId'] });
+      
+      const completed = await Progress.findAll({ 
+        where: { 
+          userId, 
+          courseId,
+          lessonId: lessonIds, 
+          isCompleted: true 
+        }, 
+        attributes: ['lessonId'] 
+      });
+      
       const ids = completed.map(p => p.lessonId);
       res.status(200).json({ success: true, data: ids });
     } catch (error) {

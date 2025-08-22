@@ -1,0 +1,29 @@
+[
+  {
+    "id": "b1e1a1e0-1111-4a1a-9a1a-111111111111",
+    "email": "instructor@example.com",
+    "password": "password123",
+    "fullName": "Demo Instructor",
+    "role": "instructor",
+    "createdAt": "2025-08-21T09:01:34.762Z",
+    "updatedAt": "2025-08-21T09:01:34.762Z"
+  },
+  {
+    "id": "b1e1a1e0-2222-4a1a-9a1a-222222222222",
+    "email": "admin@smartlearning.com",
+    "password": "admin123",
+    "fullName": "Smart Learning Admin",
+    "role": "admin",
+    "createdAt": "2025-08-21T09:01:34.762Z",
+    "updatedAt": "2025-08-21T09:01:34.762Z"
+  },
+  {
+    "id": "b1e1a1e0-3333-4a1a-9a1a-333333333333",
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "fullName": "John Doe",
+    "role": "student",
+    "createdAt": "2025-08-21T09:01:34.762Z",
+    "updatedAt": "2025-08-21T09:01:34.762Z"
+  }
+]

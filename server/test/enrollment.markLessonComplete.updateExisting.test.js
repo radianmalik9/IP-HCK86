@@ -2,7 +2,7 @@ const httpMocks = require('node-mocks-http');
 
 jest.mock('../models', () => ({
   Enrollment: { findOne: jest.fn() },
-  Lesson: { findAll: jest.fn() },
+  Lesson: { findAll: jest.fn(), findOne: jest.fn() },
   Progress: { findOne: jest.fn(), count: jest.fn() },
 }));
 
@@ -21,9 +21,22 @@ describe('EnrollmentController markLessonComplete update existing branch', () =>
   afterEach(() => jest.clearAllMocks());
 
   test('updates existing progress if not completed and recomputes percent', async () => {
-    const update = jest.fn();
-    Enrollment.findOne.mockResolvedValue({ id: 1, progress: 0, update });
-    Progress.findOne.mockResolvedValue({ id: 9, isCompleted: false, update: jest.fn() });
+    const mockEnrollment = { 
+      id: 1, 
+      progress: 0, 
+      update: jest.fn().mockResolvedValue(true),
+      reload: jest.fn().mockResolvedValue(true),
+      completedAt: null
+    };
+    const mockProgress = { 
+      id: 9, 
+      isCompleted: false, 
+      update: jest.fn().mockResolvedValue(true) 
+    };
+    
+    Enrollment.findOne.mockResolvedValue(mockEnrollment);
+    Lesson.findOne.mockResolvedValue({ id: 2, courseId: 10 }); // Mock lesson verification
+    Progress.findOne.mockResolvedValue(mockProgress);
     Lesson.findAll.mockResolvedValue([{ id: 1 }, { id: 2 }]);
     Progress.count.mockResolvedValue(1);
 
@@ -33,6 +46,6 @@ describe('EnrollmentController markLessonComplete update existing branch', () =>
     expect(res.statusCode).toBe(200);
     const body = res._getJSONData();
     expect(body.data.percent).toBe(50);
-    expect(update).toHaveBeenCalledWith(expect.objectContaining({ progress: 50 }));
+    expect(mockEnrollment.update).toHaveBeenCalledWith(expect.objectContaining({ progress: 50 }));
   });
 });
